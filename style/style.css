@@ -1,0 +1,154 @@
+:root{
+    /* Primary */
+    --Bright-orange: hsl(31, 77%, 52%); 
+    --Dark-cyan: hsl(184, 100%, 22%); 
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral (background, headings, buttons)*/
+    --Very-light-gray: hsl(0, 0%, 95%);
+
+    /* (paragraphs) */
+    --Transparent-white: hsla(0, 0%, 100%, 0.75)
+}
+
+html {
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-size: 15px; */
+    background-color: var(--Very-light-gray);
+}
+
+.cont-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-component{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sedans{
+    width: 33%;
+    height: auto;
+    background-color: var(--Bright-orange);
+    padding: 33px;
+}
+
+.sedans-icon{
+    width: 30%;
+}
+
+.sedans-info h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+.sedans-info p{
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--Transparent-white);
+}
+
+.sedans-button{
+    margin-top: 60px;
+}
+
+.btn-sedans{
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    color:var(--Bright-orange)
+}
+
+.suvs{
+    width: 33%;
+    height: auto;
+    background-color: var(--Dark-cyan);
+    padding: 33px;
+}
+
+.suvs-icon {
+    width: 30%;
+}
+
+.suvs-info h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+.suvs-info p {
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--Transparent-white);
+}
+
+.suvs-button {
+    margin-top: 60px;
+
+}
+
+.btn-suvs{
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    color: var(--Dark-cyan)
+}
+
+.luxury{
+    width: 33%;
+    height: auto;
+    background-color: var(--Very-dark-cyan);
+    padding: 33px;
+}
+
+.luxury-icon {
+    width: 30%;
+}
+
+.luxury-info h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury-info p {
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--Transparent-white);
+}
+
+.luxury-button {
+    margin-top: 60px;
+}
+
+.btn-luxury {
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    color: var(--Very-dark-cyan);
+}
