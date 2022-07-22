@@ -15,12 +15,6 @@ html {
     box-sizing: border-box;
 }
 
-/* *,
-*:before,
-*:after {
-    box-sizing: inherit;
-} */
-
 body{
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--Very-light-gray);
@@ -29,9 +23,9 @@ body{
 .cont-flex{
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .card-component{
@@ -172,6 +166,19 @@ body{
     cursor: pointer;
 }
 
+.attribution {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.attribution a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: blue;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -237,6 +244,11 @@ body{
 
 .luxury-button {
     margin-top: 22px;
+}
+
+.attribution {
+    padding-top: 10px;
+    font-size: 12px;
 }
 
 }
