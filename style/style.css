@@ -227,7 +227,7 @@ body{
 }
 
 .sedans-button {
-    margin-top: 0;
+    margin: 0;
 }
 
 .btn-sedans{
@@ -261,7 +261,7 @@ body{
 }
 
 .suvs-button {
-    margin-top: 0;
+    margin: 0;
 }
 
 .btn-suvs {
@@ -295,7 +295,7 @@ body{
 }
 
 .luxury-button {
-    margin-top: 0;
+    margin: 0;
 }
 
 .btn-luxury {
