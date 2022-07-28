@@ -29,8 +29,8 @@ body{
 }
 
 .card-component{
-    width: 700px;
-    height: 400px;
+    max-width: 830px;
+    min-height: 450px;
     display: flex;
     flex-direction: row;
     border-radius: 8px;
@@ -38,8 +38,11 @@ body{
 }
 
 .sedans{
-    width: 33%;
+    width: 33.6%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--Bright-orange);
     padding: 33px;
 }
@@ -49,26 +52,27 @@ body{
 }
 
 .sedans-info h1{
+    font-size: 39px;
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
 
 .sedans-info p{
-    font-size: 12px;
+    font-size: 15px;
     line-height: 22px;
     color: var(--Transparent-white);
 }
 
 .sedans-button{
-    margin-top: 60px;
+    margin: 50px 0px 20px 0px;
 }
 
 .btn-sedans{
     border: none;
-    border-radius: 20px;
-    width: 120px;
-    height: 40px;
+    border-radius: 50px;
+    width: 135px;
+    height: 45px;
     font-size: 13px;
     color:var(--Bright-orange);
 }
@@ -81,8 +85,11 @@ body{
 }
 
 .suvs{
-    width: 33%;
+    width: 33.6%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--Dark-cyan);
     padding: 33px;
 }
@@ -92,26 +99,27 @@ body{
 }
 
 .suvs-info h1 {
+    font-size: 39px;
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
 
 .suvs-info p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 22px;
     color: var(--Transparent-white);
 }
 
 .suvs-button {
-    margin-top: 60px;
+    margin: 50px 0px 20px 0px;
 }
 
 .btn-suvs{
     border: none;
-    border-radius: 20px;
-    width: 120px;
-    height: 40px;
+    border-radius: 50px;
+    width: 135px;
+    height: 45px;
     font-size: 13px;
     color: var(--Dark-cyan)
 }
@@ -124,8 +132,11 @@ body{
 }
 
 .luxury{
-    width: 33%;
+    width: 33.6%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--Very-dark-cyan);
     padding: 33px;
 }
@@ -135,26 +146,27 @@ body{
 }
 
 .luxury-info h1 {
+    font-size: 39px;
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
 
 .luxury-info p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 22px;
     color: var(--Transparent-white);
 }
 
 .luxury-button {
-    margin-top: 60px;
+    margin: 50px 0px 20px 0px;
 }
 
 .btn-luxury {
     border: none;
-    border-radius: 20px;
-    width: 120px;
-    height: 40px;
+    border-radius: 50px;
+    width: 135px;
+    height: 45px;
     font-size: 13px;
     color: var(--Very-dark-cyan);
 }
@@ -183,8 +195,8 @@ body{
 @media only screen and (max-width: 600px) {
 
 .card-component {
-    max-width: 265px;
-    height: auto;
+    max-width: 230px;
+    min-height: 930px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -192,63 +204,110 @@ body{
 }
 
 .sedans {
-    width: 195px;
-    height: 285px;
-    padding: 35px;
+    width: fit-content;
+    height: 250px;
+    padding: 30px;
+}
+
+.sedans-info{
+    width: 170px;
+}
+
+.sedans-info h1 {
+    font-size: 30px;
 }
 
 .sedans-info p {
-    font-size: 13px;
+    font-size: 11px;
+    line-height: 17px;
 }
 
 .sedans-icon {
-    width: 25%;
+    width: 29%;
 }
 
 .sedans-button {
-    margin-top: 22px;
+    margin-top: 0;
+}
+
+.btn-sedans{
+    border-radius: 20px;
+    width: 106px;
+    height: 35px;
+    font-size: 10px;
 }
 
 .suvs {
-    width: 195px;
-    height: 285px;
-    padding: 35px;
+    width: fit-content;
+    height: 250px;
+    padding: 30px;
+}
+
+.suvs-info {
+    width: 170px;
+}
+
+.suvs-info h1 {
+    font-size: 30px;
 }
 
 .suvs-info p {
-    font-size: 13px;
+    font-size: 11px;
+    line-height: 17px;
 }
 
 .suvs-icon {
-    width: 25%;
+    width: 29%;
 }
 
 .suvs-button {
-    margin-top: 22px;
+    margin-top: 0;
+}
 
+.btn-suvs {
+    border-radius: 20px;
+    width: 106px;
+    height: 35px;
+    font-size: 10px;
 }
 
 .luxury {
-    width: 195px;
-    height: 285px;
-    padding: 35px;
+    width: fit-content;
+    height: 250px;
+    padding: 30px;
+}
+
+.luxury-info {
+    width: 170px;
+}
+
+.luxury-info h1 {
+    font-size: 30px;
 }
 
 .luxury-info p {
-    font-size: 13px;
+    font-size: 11px;
+    line-height: 17px;
 }
 
 .luxury-icon {
-    width: 25%;
+    width: 29%;
 }
 
 .luxury-button {
-    margin-top: 22px;
+    margin-top: 0;
+}
+
+.btn-luxury {
+    border-radius: 20px;
+    width: 106px;
+    height: 35px;
+    font-size: 10px;
 }
 
 .attribution {
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 }
